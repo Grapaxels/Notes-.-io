@@ -1,3 +1,11 @@
+*{
+    position: relative;
+    overflow-x: hidden;
+}
+.header{
+    overflow: hidden;
+    position: relative;
+}
 .head{
     text-align: center;
     font-size: 48px;
