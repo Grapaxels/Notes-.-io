@@ -1,0 +1,219 @@
+*{
+    position: relative;
+    overflow-x: hidden;
+}
+.header{
+    overflow: hidden;
+    position: relative;
+}
+.head{
+    text-align: center;
+    font-size: 48px;
+}
+.block{
+    background-color: rgb(251, 66, 100);
+    height: 105px;
+    width: 2000px;
+}
+.nav-a{
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    margin-left: 68px;
+    color: white;
+    font-size: 20px;
+}
+.nav-b{
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    color: black;
+}
+.nav-b:hover{
+    color: white;
+} 
+.nav-c{
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    margin-left: 68px;
+    color: black;
+    font-size: 20px;
+}
+.nav-c:hover{
+    color: white;
+}
+.nav-d{
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    color: white;
+}
+/*****************Body*************/ 
+.univ{
+    text-align: center;
+}
+.course{
+    float: left;
+    margin-left: 10px;
+}
+.course-a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sub{
+    margin-top: 20px;;
+}
+.sub-a{
+    margin-left: 40px;
+}
+.sub-b{
+    margin-left: 20px;
+}
+.sub-img{
+    width: 200px;
+    height: 160px;
+}
+.sub-img-a{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/**************footer**************/
+
+footer{
+    background-color: rgb(251, 66, 100);
+    height: 250px;
+} 
+.name{
+    margin-top: 12px;
+}
+.footer{
+    text-align: center;
+} 
+.footer-a{
+    font-size: 10px;
+}
+.a{
+    font-size: 14px;
+}
+
+.aa{
+    font-size: 15px;
+}
+.aa:hover{
+    color:white;
+}
+
+/********Media******/
+
+@media screen and (max-width:420px){
+    .head{
+        text-align: center;
+        font-size: 18px;
+    }
+    .block{
+        background-color: rgb(251, 66, 100);
+        height: 55px;
+        width: 500px;
+    }
+    .nav-a{
+        margin-top: 10px;
+        float: left;
+        padding: 10px;
+        margin-left: 18px;
+        color: white;
+        font-size: 10px;
+    }
+    .nav-b{
+        margin-top: 10px;
+        float: left;
+        padding: 10px;
+        margin-left: px;
+        font-size: 10px;
+        color: black;
+    }
+    .nav-b:hover{
+        color: white;
+    } 
+    .nav-c{
+        margin-top: 20px;
+        float: left;
+        padding: 0px;
+        margin-left: 28px;
+        color: black;
+        font-size: 10px;
+    }
+    .nav-c:hover{
+        color: white;
+    }
+    .nav-d{
+        margin-top: 20px;
+        float: left;
+        padding: 0px;
+        margin-left: 18px;
+        font-size: 10px;
+        color: white;
+    }
+    /*****************Body*************/ 
+    .univ{
+        text-align: center;
+    }
+    .course{
+        float: left;
+        margin-left: 10px;
+    }
+    .course-a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .sub{
+        margin-top: 20px;;
+    }
+    .sub-a{
+        margin-left: 40px;
+    }
+    .sub-b{
+        margin-left: 20px;
+    }
+    .sub-img{
+        width: 200px;
+        height: 160px;
+    }
+    .sub-img-a{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    /**************footer**************/
+    
+    footer{
+        background-color: rgb(251, 66, 100);
+        height: 250px;
+    } 
+    .name{
+        margin-top: 12px;
+    }
+    .footer{
+        text-align: center;
+    } 
+    .footer-a{
+        font-size: 10px;
+    }
+    .a{
+        font-size: 14px;
+    }
+    
+    .aa{
+        font-size: 15px;
+    }
+    .aa:hover{
+        color:white;
+    }
+}
