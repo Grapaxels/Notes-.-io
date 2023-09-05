@@ -110,6 +110,55 @@ footer{
     color:white;
 }
 
+
+
+
+/******contribute*****/
+.form{
+    justify-content: center;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+  
+  form {
+    overflow-x:hidden;
+    overflow-y: hidden;
+    top: 20px;
+    bottom: 100px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-left: 40%;
+    display: flex;
+    background-color: #337ab7;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********Media******/
 
 @media screen and (max-width:420px){
@@ -216,4 +265,45 @@ footer{
     .aa:hover{
         color:white;
     }
+
+
+    .form{
+        justify-content: center;
+        overflow-x:hidden;
+        overflow-y: hidden;
+    }
+      
+      form {
+        overflow-x:hidden;
+        overflow-y: scroll;
+        top: 20px;
+        height: 300px;
+        width: 200px;
+        margin: 0 auto;
+        padding: 05px;
+        border: 1px solid #ccc;
+      }
+      
+      input {
+        width: 75%;
+        padding: 05px;
+        border: 1px solid #ccc;
+      }
+      
+      button {
+        margin-left: 40%;
+        display: flex;
+        background-color: #337ab7;
+        color: white;
+        padding: 05px;
+        border: none;
+        cursor: pointer;
+      }
+      .h1{
+        font-size: 15px;
+      }
 }
+
+
+
+

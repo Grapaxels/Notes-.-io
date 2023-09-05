@@ -31,7 +31,7 @@
             <input type="text" name="name" placeholder="Your name">
             <h1 class="h1">Email</h1>
             <input type="email" name="email" placeholder="Your email">
-            <h1>File</h1>
+            <h1 class="h1">File</h1>
             <input type="file" name="message" placeholder="Your message">
             <br><br>
             <button type="submit">Submit</button>
@@ -59,4 +59,20 @@
             </div>
         </footer>
 </body>
+<?php
+// Check if the form has been submitted
+if (isset($_POST['submit'])) {
+  // Get the form data
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+  // Print the form data
+  echo "Your name is: $name";
+  echo "<br>";
+  echo "Your email is: $email";
+  echo "<br>";
+  echo "Your message is: $message";
+}
+?>
 </html>
