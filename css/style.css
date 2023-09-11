@@ -234,10 +234,12 @@ footer{
     .sub-img{
         width: 200px;
         height: 160px;
+        border-radius: 15px;
     }
     .sub-img-a{
         margin-left: 20px;
         margin-top: 20px;
+        border-radius: 5px;
     }
     
     /**************footer**************/
